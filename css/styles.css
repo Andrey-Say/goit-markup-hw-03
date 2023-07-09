@@ -30,6 +30,8 @@ ol {
 
 img {
   display: block;
+  width: 100%;
+  height: auto;
 }
 
 .container {
@@ -37,8 +39,7 @@ img {
   max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 .section {
@@ -224,6 +225,10 @@ body {
   gap: 24px;
 }
 
+.work-list .item {
+  width: calc((100% - 48px) / 3);
+}
+
 /* -------------------team---------------- */
 
 .team-title {
@@ -245,6 +250,7 @@ body {
 }
 
 .team-list .item {
+  width: calc((100% - 24px * 3) / 4);
   border-radius: 0px 0px 4px 4px;
   background: var(--white);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
