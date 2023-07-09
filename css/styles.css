@@ -80,24 +80,28 @@ body {
 .header {
   border-bottom: 1px solid var(--cornflower);
   background: var(--white);
-  padding: 24px 0;
+  padding: 24px 0 24px 0;
 }
 
 .header-container {
   align-items: center;
-  padding: 0 156px;
+  padding: 0 156px 0 156px;
 }
 .nav {
   gap: 76px;
+  align-items: center;
 }
 
 .nav-list {
   gap: 40px;
 }
 
+.address {
+  margin-left: auto;
+}
+
 .contacts-header {
   gap: 40px;
-  margin-left: auto;
 }
 
 .logo {
@@ -169,8 +173,13 @@ body {
   letter-spacing: -0.04em;
   color: var(--white);
 
+  min-width: 169px;
+  height: 56px;
+  display: block;
   padding: 16px 32px;
+  margin: 0 auto;
 
+  border: none;
   cursor: pointer;
   border-radius: 4px;
   background: var(--iris);
