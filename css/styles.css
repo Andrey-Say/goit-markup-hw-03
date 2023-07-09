@@ -310,7 +310,7 @@ body {
 .project {
   padding-top: 96px;
 }
-.portfolio {
+.portfolio-title {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -354,6 +354,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
+  justify-content: center;
 }
 
 .project-list .item {
