@@ -358,13 +358,14 @@ body {
   justify-content: center;
 }
 
-.project-list .item {
-  width: calc((100% - 24px * 2) / 3);
-  padding-bottom: 32px;
+.project-card {
+  padding: 36px 16px;
+  border: 1px solid var(--cornflower);
+  border-top: none;
 }
 
-.project-list .item img {
-  margin-bottom: 32px;
+.project-list .item {
+  width: calc((100% - 24px * 2) / 3);
 }
 
 .project-title {
@@ -373,16 +374,14 @@ body {
   line-height: 1.5;
   letter-spacing: -0.02em;
   color: var(--navyblue);
-  padding: 0 16px;
   margin-bottom: 8px;
 }
 
 .project-text {
+  color: var(--slate);
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
-  padding: 0 16px;
-  margin-bottom: 8px;
 }
 
 /* -------------------------footer--------------- */
