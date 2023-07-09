@@ -311,7 +311,7 @@ body {
 .project {
   padding-top: 96px;
 }
-.portfolio-title {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
