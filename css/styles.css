@@ -375,6 +375,7 @@ body {
 
 .footer {
   background-color: var(--navyblue);
+  padding: 100px 0;
 }
 
 .footer-logo {
@@ -387,14 +388,15 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   color: var(--cloud);
+  display: inline-block;
 
-  margin-bottom: 17px;
+  margin-bottom: 16px;
 }
 .footer-text {
   color: var(--cloud);
-  width: 264px;
+  max-width: 264px;
 }
 
 .container-footer {
-  padding: 102px 0 100px 0;
+  /* padding: 102px 0 100px 0; */
 }
