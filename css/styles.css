@@ -79,13 +79,13 @@ body {
 .header {
   border-bottom: 1px solid var(--cornflower);
   background: var(--white);
-  padding: 0 15px 0 15px;
 }
 
 .header-container {
   align-items: center;
-  padding: 0 156px 0 156px;
+  padding: 0 15px 0 15px;
 }
+
 .nav {
   align-items: center;
 }
