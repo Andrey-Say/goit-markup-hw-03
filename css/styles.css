@@ -80,7 +80,6 @@ body {
 .header {
   border-bottom: 1px solid var(--cornflower);
   background: var(--white);
-  padding: 24px 0 24px 0;
 }
 
 .header-container {
@@ -88,7 +87,6 @@ body {
   padding: 0 156px 0 156px;
 }
 .nav {
-  gap: 76px;
   align-items: center;
 }
 
@@ -113,6 +111,7 @@ body {
   color: var(--navyblue);
   text-decoration: none;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .accent {
@@ -125,6 +124,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: -0.02em;
+  padding: 24px 0 24px 0;
+  display: block;
 }
 
 .header-email {
